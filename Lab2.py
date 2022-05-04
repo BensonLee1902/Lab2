@@ -43,6 +43,7 @@ def find_min_max(num_list):
 def sort_temperature(num_list):
     print("sort_temperature")
     num_list.sort()
+    print(num_list)
     return(num_list)
 
 def calc_median_temperature(sorted_list):
